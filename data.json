@@ -1,7 +1,7 @@
 {"data":[
-    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Box"], "maxPages": 3},
-    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Infinite"], "maxPages": 3},
-    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Scroll"], "maxPages": 4},
-    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["10"], "maxPages": 2},
-    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["10","7","Box"], "maxPages": 5}
+    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Box"]},
+    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Infinite"]},
+    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["Scroll"]},
+    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["10"]},
+    {"url":"https://intoli.com/blog/scrape-infinite-scroll/demo.html", "wordList": ["10","7","Box"]}
 ]}
