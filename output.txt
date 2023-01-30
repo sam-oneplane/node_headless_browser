@@ -10,3 +10,13 @@
 {"input":["Box"],"matches":113}
 {"input":["Infinite"],"matches":114}
 {"input":["Scroll"],"matches":119}
+{"input":["Infinite"],"matches":114}
+{"input":["10"],"matches":17}
+{"input":["Box"],"matches":113}
+{"input":["10","7","Box"],"matches":152}
+{"input":["Scroll"],"matches":119}
+{"input":["Scroll"],"matches":20}
+{"input":["10","7","Box"],"matches":21}
+{"input":["Infinite"],"matches":14}
+{"input":["Box"],"matches":13}
+{"input":["10"],"matches":6}

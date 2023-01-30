@@ -2,22 +2,24 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 
-async function scrapeInfiniteScrollItems(page, text) {
+async function scrapeInfiniteScrollItems(page, text, maxPages = 10) {
 
     let re = new RegExp(text.join("|"), 'g');
     console.log(re);
     /* Scroll to the end of page */
-    await page.evaluate(async (re) => {
+    await page.evaluate(async (re, maxPages) => {
+        let pages = 0;
         let scrollPosition = 0
         let documentHeight = document.body.scrollHeight
   
-        while (documentHeight > scrollPosition) {
+        while (documentHeight > scrollPosition && pages < maxPages) {
           window.scrollBy(0, documentHeight)
           await new Promise(resolve => {
             setTimeout(resolve, 1000)
           })
           scrollPosition = documentHeight
           documentHeight = document.body.scrollHeight
+          pages++;
         }
     });
     /* Match regex based on input words */
@@ -48,7 +50,7 @@ async function run(message)  {
     await page.goto(message.url);
 
     console.log(`scrapper started!`);
-    await scrapeInfiniteScrollItems(page, message.wordList);
+    await scrapeInfiniteScrollItems(page, message.wordList, message.maxPages);
     console.log(`scrapper finished!`);
     await browser.close();
 
