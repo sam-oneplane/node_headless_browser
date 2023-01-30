@@ -46,7 +46,11 @@ in node js using a puppeteer library.
 
 #### node ./consumer.js
 
-you will see massage : consumer is listening
+you will see massage : 
+
+```markdown
+consumer is listening
+```
 
 2. in the same dir open a second terminal and run:
 
