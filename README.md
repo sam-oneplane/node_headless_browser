@@ -44,33 +44,34 @@ in node js using a puppeteer library.
 
 1. open a terminal in the project dir and run :
 
-### node ./consumer.js
+#### node ./consumer.js
 
 you will see massage : consumer is listening
 
 2. in the same dir open a second terminal and run:
 
-### node ./producer.js
+#### node ./producer.js
 
 you will see something like :
 
-Start publishing
-Publishing to queueName: headless_browser
-Publishing to queueName: headless_browser
-Publishing to queueName: headless_browser
-Publishing to queueName: headless_browser
-End publishing
+*Start publishing
+*Publishing to queueName: headless_browser
+*Publishing to queueName: headless_browser
+*Publishing to queueName: headless_browser
+*Publishing to queueName: headless_browser
+*End publishing
+
 
 3. open the queue window on browser to see the massages entering and leaving
    the queue
 
 4. the output will be printed on the terminal :
 
-scrapper started!
-/Scroll/g
-119
-scrapper finished!
+*scrapper started!
+*/Scroll/g
+*119
+*scrapper finished!
 
 for each massage, and in the output file will a line is added:
 
-{"input":["Scroll"],"matches":119}
+*{"input":["Scroll"],"matches":119}
