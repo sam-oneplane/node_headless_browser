@@ -1,0 +1,15 @@
+{
+  "name": "headless-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel mash",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "puppeteer": "^19.6.1"
+  }
+}

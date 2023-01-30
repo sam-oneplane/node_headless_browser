@@ -1,0 +1,12 @@
+{"input":["Scroll"],"matches":119}
+{"input":["Scroll"],"matches":119}
+{"input":["Box"],"matches":113}
+{"input":["Infinite"],"matches":114}
+{"input":["Infinite"],"matches":114}
+{"input":["Box"],"matches":113}
+{"input":["Scroll"],"matches":119}
+{"input":["10"],"matches":17}
+{"input":["10"],"matches":17}
+{"input":["Box"],"matches":113}
+{"input":["Infinite"],"matches":114}
+{"input":["Scroll"],"matches":119}
