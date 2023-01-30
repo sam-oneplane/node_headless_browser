@@ -54,12 +54,14 @@ you will see massage : consumer is listening
 
 you will see something like :
 
-*Start publishing
-*Publishing to queueName: headless_browser
-*Publishing to queueName: headless_browser
-*Publishing to queueName: headless_browser
-*Publishing to queueName: headless_browser
-*End publishing
+```markdown
+Start publishing
+Publishing to queueName: headless_browser
+Publishing to queueName: headless_browser
+Publishing to queueName: headless_browser
+Publishing to queueName: headless_browser
+End publishing
+```
 
 
 3. open the queue window on browser to see the massages entering and leaving
@@ -67,11 +69,15 @@ you will see something like :
 
 4. the output will be printed on the terminal :
 
-*scrapper started!
-*/Scroll/g
-*119
-*scrapper finished!
+```markdown
+scrapper started!
+/Scroll/g
+119
+scrapper finished!
+```
 
 for each massage, and in the output file will a line is added:
 
-*{"input":["Scroll"],"matches":119}
+```markdown
+{"input":["Scroll"],"matches":119}
+```
